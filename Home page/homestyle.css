@@ -108,10 +108,20 @@
     bottom: 84px;
     right: 20px;
   }
+  .sub{
+   height: 52px;
+   width: 99px;
+   border-radius: 10px;
+   background-color: rgb(150, 150, 234);
+   color: #fff;
+
+  }
   .search_bar{
     padding: 19px;
     border-radius: 12px;
     width: 20%;
+    position: relative;
+    right: 40px;
   }
 
   .earth{
