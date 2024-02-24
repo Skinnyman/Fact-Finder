@@ -112,7 +112,7 @@
    height: 52px;
    width: 99px;
    border-radius: 10px;
-   background-color: rgb(150, 150, 234);
+   background-color: blue;
    color: #fff;
 
   }
@@ -122,6 +122,14 @@
     width: 20%;
     position: relative;
     right: 40px;
+  }
+  .add{
+    position: relative; 
+    left: 400px; 
+    border: 1px solid grey; 
+    padding: 12px;
+    background-color: blue;
+    color: #fff;
   }
 
   .earth{
