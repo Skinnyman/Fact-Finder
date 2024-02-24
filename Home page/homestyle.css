@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  /* For the links*/
+  
+  .navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  #navbar__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navbar__item {
+    height: 80px;
+  }
+  
+  .navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar__links:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+  }
+ 
+ /* Styling for the home page*/
+  .welcome{
+    display: block;
+    gap: 1.3rem;
+    text-align: center;
+    margin-top: 12px;
+    position: relative;
+    top: 60px;
+  }
+  
+  .search{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 84px;
+    right: 20px;
+  }
+  .search_bar{
+    padding: 19px;
+    border-radius: 12px;
+    width: 20%;
+  }
+
+  .earth{
+    width: 160px;
+    position: relative;
+    bottom: 79px;
+    border-radius: 97px;
+  }
+  .top{
+    margin-top: -125px;
+  }
+  .art_news{
+    margin-top: 19px;
+    margin-left: 12px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+  a:hover{
+    color: rgb(176, 39, 60);
+  }
+
+  .feature{
+    border:1px solid grey;
+    width: 59%;
+    background-color: rgb(12, 169, 231);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    border-radius: 7px;
+    padding: 7px;
+  }
+  .today_news{
+    border: 1px solid grey;
+    width: 39%;
+    background-color: rgb(132, 207, 237);
+    border-radius: 6px;
+    line-height: 1.5;
+  }
+  p{
+    margin-left: 10px;
+    position: relative;
+    
+  }
+  .did{
+    margin-top: 12px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .art_news{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .in_news{
+    border: 1px solid grey;
+    width: 39%;
+    background-color: rgb(234, 161, 213);
+    border-radius: 6px;
+    line-height: 1.5;
+    height: 83%;
+  }
+  .feature1{
+    border:1px solid grey;
+    width: 59%;
+    background-color: rgb(231, 12, 169);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    border-radius: 7px;
+    padding: 7px;
+  }
+  span{
+    color: blue;
+  }
+  .in_image{
+     margin-top: 19px;
+     margin-left: 79px;
+     border: 1px solid grey;
+     border-radius: 8px;
+     margin-bottom: 12px;
+     background-color: rgb(179, 240, 212);
+     width: 80%;
+  }
+  .feature2{
+    border:1px solid grey;
+    width: 99%;
+    background-color: rgb(12, 231, 129);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 7px;
+    border-radius: 7px;
+    padding: 7px;
+  }
+  .flaco{
+    width: 30%;
+    position: relative;
+    top: 80px;
+  }
+  .flacoo{
+    position: relative;
+    bottom: 79px;
+  }
+  .flag{
+    width: 40%;
+    position: relative;
+    top: 10px;
+  }
+  .flagg{
+    position: relative;
+    top:12px
+  }
+  .russ{
+    width: 23%;
+    position: relative;
+    top: 62px;
+    left: 154px;
+    border-radius: 7px;
+  }
+  .russia{
+    position: relative;
+    bottom: 129px;
+  }
+  .fish{
+    width: 40%;
+    margin-left: 20px;
+    height: 57%;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+  .star{
+    display: flex;
+  }
+  .star_fish{
+    line-height: 1.9;
+  }
+  #edit-box{
+    border:1px solid grey;
+    padding: 9px;
+    position: relative;
+    top:12px;
+    border-radius: 8px;
+  }
+  #edit-page:hover{
+    color: #9518fc;
+  }

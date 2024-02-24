@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .Welcome {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    position: sticky;
+  }
+  
+  #navbar__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navbar__item {
+    height: 80px;
+  }
+  
+  .navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #833ab4;
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  .navbar__links:hover {
+    color: #9518fc;
+    transition: all 0.3s ease;
+  }
+  
+ 
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:40px;
+    left: 56px;
+    gap: 3rem;
+}
+.wiki_pic{
+    border-radius: 400px;
+    width: 300px;
+   
+}
+
+.h1__wiki{
+    font-size: 3rem;
+}
+.eng_art{
+    position: relative;
+    top:60px;
+    left: 450px;
+}
+.en{
+    font-size: 1.4rem;
+    text-decoration: none;
+    position: relative;
+    left: 29px;
+}
+.en:hover{
+    color: rgb(127, 127, 240);
+}
+.search{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:30px;
+    padding: 20px;
+    width: 80%;
+    left: 39px;
+    border-radius: 20px;
+  
+}
+.art{
+    font-size: 1.4rem;
+}
